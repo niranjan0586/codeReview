@@ -1,0 +1,55 @@
+<div class="details-modal">
+    <h1>
+        Applicant Details
+    </h1>
+    <!-- <div class="applicant-position"> {{data.id}} </div> -->
+    <p>
+        Name: <span class="applicant-symbol details">
+            <h2>{{data.name}}</h2>
+        </span>
+    </p>
+    <p>
+        Position Applied for:<span class="applicant-name details"> {{data.position}} </span>
+    </p>
+    <p>
+        Date of application: <span class="applicant-weight details"> {{data.applied}} </span>
+    </p>
+    <p>
+        Experience in years: <span class="applicant-weight details">{{data.experience}}</span>
+    </p>
+
+
+    Availability:
+    <table class="availability">
+        <tr>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+
+        <tr align="center">
+            <td>{{data.availability.M}}</td>
+            <td>{{data.availability.T}}</td>
+            <td>{{data.availability.W}}</td>
+            <td>{{data.availability.Th}}</td>
+            <td>{{data.availability.F}}</td>
+            <td>{{data.availability.S}}</td>
+            <td>{{data.availability.Su}}</td>
+        </tr>
+    </table>
+    Additional Info:
+    <ng-container class="questions" *ngFor="let question of data.questions">
+        <ul>
+            <li>
+                <span>
+                    <p>{{question.text}}</p>
+                    <p> {{question.answer}}</p>
+                </span>
+            </li>
+        </ul>
+    </ng-container>
+</div>

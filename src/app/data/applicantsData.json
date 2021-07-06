@@ -1,0 +1,296 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "position": "Server",
+        "applied": "03/15/2016",
+        "experience": 2,
+        "availability": {
+            "M": 2,
+            "T": 2,
+            "W": 1,
+            "Th": 2,
+            "F": 1,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Have you ever been convicted of a felony?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "position": "Cook",
+        "applied": "02/08/2020",
+        "experience": 4,
+        "availability": {
+            "M": 1,
+            "T": 1,
+            "W": 1,
+            "Th": 1,
+            "F": 0,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Have you ever been convicted of a felony?",
+                "answer": "Yes"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "David Jessup",
+        "position": "Chef",
+        "applied": "03/08/2020",
+        "experience": 2,
+        "availability": {
+            "M": 2,
+            "T": 2,
+            "W": 2,
+            "Th": 2,
+            "F": 2,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Are you authorized to work in the United States?",
+                "answer": "Yes"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Clay vanSchalkwijk",
+        "position": "Cook",
+        "applied": "03/08/2020",
+        "experience": 1,
+        "availability": {
+            "M": 1,
+            "T": 0,
+            "W": 1,
+            "Th": 0,
+            "F": 1,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Are you authorized to work in the United States?",
+                "answer": "Yes"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Nicole Gardner",
+        "position": "Chef",
+        "applied": "03/09/2020",
+        "experience": 3,
+        "availability": {
+            "M": 1,
+            "T": 0,
+            "W": 1,
+            "Th": 0,
+            "F": 2,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Are you authorized to work in the United States?",
+                "answer": "Yes"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "John Doe",
+        "position": "Cook",
+        "applied": "03/10/2020",
+        "experience": 1,
+        "availability": {
+            "M": 2,
+            "T": 2,
+            "W": 0,
+            "Th": 2,
+            "F": 1,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Have you ever been convicted of a felony?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "William Smith",
+        "position": "Cook",
+        "applied": "03/10/2020",
+        "experience": 1,
+        "availability": {
+            "M": 2,
+            "T": 0,
+            "W": 0,
+            "Th": 2,
+            "F": 1,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Have you ever been convicted of a felony?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "William Smith",
+        "position": "Server",
+        "applied": "03/10/2020",
+        "experience": 1,
+        "availability": {
+            "M": 2,
+            "T": 0,
+            "W": 0,
+            "Th": 2,
+            "F": 1,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Have you ever been convicted of a felony?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "William Smith",
+        "position": "Server",
+        "applied": "03/10/2020",
+        "experience": 4,
+        "availability": {
+            "M": 1,
+            "T": 0,
+            "W": 0,
+            "Th": 2,
+            "F": 1,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Have you ever been convicted of a felony?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "David Emanuel",
+        "position": "Valet",
+        "applied": "03/08/2020",
+        "experience": 4,
+        "availability": {
+            "M": 2,
+            "T": 2,
+            "W": 2,
+            "Th": 2,
+            "F": 2,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Are you authorized to work in the United States?",
+                "answer": "Yes"
+            },
+            {
+                "text": "Have you ever been convicted of a felony?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Lori",
+        "position": "Grill Cook",
+        "applied": "03/07/2020",
+        "experience": 4,
+        "availability": {
+            "M": 2,
+            "T": 2,
+            "W": 2,
+            "Th": 2,
+            "F": 0,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Are you authorized to work in the United States?",
+                "answer": "Yes"
+            },
+            {
+                "text": "Have you ever been convicted of a felony?",
+                "answer": "Yes"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Garry Hidleston",
+        "position": "Manager",
+        "applied": "09/06/2020",
+        "experience": 4,
+        "availability": {
+            "M": 2,
+            "T": 2,
+            "W": 2,
+            "Th": 2,
+            "F": 2,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Have you ever been convicted of a felony?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Tom Elkin",
+        "position": "Manager",
+        "applied": "09/06/2019",
+        "experience": 1,
+        "availability": {
+            "M": 2,
+            "T": 2,
+            "W": 2,
+            "Th": 2,
+            "F": 2,
+            "S": 0,
+            "Su": 0
+        },
+        "questions": [
+            {
+                "text": "Have you ever been convicted of a felony?",
+                "answer": "No"
+            }
+        ]
+    }
+]
