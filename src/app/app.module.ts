@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DashboardTableComponent } from './dashboard-table/dashboard-table.component';
 import {MatTableModule} from '@angular/material/table';
-// import {MatTableDataSource} from '@angular/material/table';
-import {MatSortModule} from '@angular/material/sort';
 import {MatSelectModule} from '@angular/material/select';
 import { AdditionalInfoComponent } from './additional-info/additional-info.component';
 import {ApplicantDialog} from './additional-info/additional-info.component';
@@ -25,7 +23,6 @@ import {MatDialogModule} from '@angular/material/dialog';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTableModule,
-    MatSortModule,
     MatSelectModule,
     MatDialogModule
   ],

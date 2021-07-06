@@ -1,7 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { DashboardServiceService } from '../dashboard-service.service';
 import { animate, state, style, transition, trigger } from '@angular/animations';
-import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import applicantsList from '../data/applicantsData.json';
 
@@ -22,8 +21,6 @@ import applicantsList from '../data/applicantsData.json';
 export class DashboardTableComponent {
 
   constructor(private DashboardServiceService: DashboardServiceService) { }
-  // public applicantsList:{id:number, name:string, position: string, applied: string, 
-  //   experience: number, availability: any, questions: any}[] = applicantsData;
   tableData: applicantsData[] = applicantsList;
   updatedTableData: applicantsData[] = applicantsList;
   flagList: applicantsData[] = JSON.parse(this.DashboardServiceService.getItem('flagList') || '[]');
@@ -61,10 +58,8 @@ export class DashboardTableComponent {
   columnsToDisplay = ['id', 'name', 'position', 'applied', 'experience'];
   expandedElement: applicantsData | null | undefined;
 
-  @ViewChild(MatSort) sort!: MatSort;
 
   ngAfterViewInit() {
-    this.dataSource.sort = this.sort;
     this.getFilterData(applicantsList);
     this.highlightData();
   }
@@ -158,8 +153,6 @@ export class DashboardTableComponent {
   // Update table
   updateTableData = (data: applicantsData[]) => {
     this.dataSource = new MatTableDataSource(data);
-    this.dataSource.sort = this.sort;
-
     setTimeout(() => { this.highlightData() }, 500);
   }
 
